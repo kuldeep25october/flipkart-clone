@@ -1,6 +1,6 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import "./style.scss";
-import { message, Spin } from "antd"; 
+import { message, Spin } from "antd";
 import axios from "axios";
 
 const LoginForm = () => {
