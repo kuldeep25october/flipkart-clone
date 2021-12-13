@@ -1,0 +1,53 @@
+.brandDirectoryContainer {
+  width: 100%;
+  background: #fff;
+  margin-top: 70px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  .brandDirectoryBody {
+    margin: 0 auto;
+    padding: 25px;
+    .mostSearchedProducts,
+    .camera,
+    .laptops,
+    .TVs,
+    .largeAppliances,
+    .clothing,
+    .footwear,
+    .groceries,
+    .bestSellingOnFlipkart,
+    .furniture {
+      margin: 3px 0;
+      span {
+        color: #848484;
+        text-transform: uppercase;
+        margin-right: 3px;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .listItem {
+        padding: 0 5px;
+        border-right: 1px solid #333;
+        font-size: 12px;
+        text-decoration: none;
+        color: #848484;
+      }
+      .listItem:last-child {
+        border-right: none;
+      }
+    }
+    .brandDirectoryHeader {
+      color: #848484;
+      font-weight: 500;
+      margin-top: 14px;
+      font-size: 14px;
+      p {
+        color: #848484;
+        font-weight: 500;
+        span {
+          color: #565656;
+          margin-left: 3px;
+        }
+      }
+    }
+  }
+}
